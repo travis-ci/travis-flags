@@ -1,3 +1,5 @@
+ENV.delete('DATABASE_URL')
+
 require 'active_record'
 require 'active_support/concern'
 require 'logger'

@@ -17,3 +17,5 @@ before_script:
 
 script:
   - bundle exec rspec --require spec_helper
+before_install:
+  - gem install rubygems-update -v 3.4.22
